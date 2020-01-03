@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  urlApi:'https://www.emelexista.com/wp-json/wp/v2/'
+  urlApi:'https://www.emelexista.com/wp-json/wp/v2/',
+  categorias:'https://www.emelexista.com/wp-json/wp/v2/posts?filter[cat]=chicas'
 
 };
 

@@ -7,19 +7,19 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class="ion-padding">
   
   <div *ngIf="post">
     <img [src]="post.media_url" [style.width]="'100%'">
-    <div [innerHTML]="post.content.rendered" padding></div>
+    <div [innerHTML]="post.content.rendered" class="ion-padding"></div>
   </div>
  
 </ion-content>
  
-<ion-footer color="secondary">
+<ion-footer color="primary">
   <ion-toolbar>
-    <ion-button expand="full" fill="clear" (click)="openOriginal()">
-      Open Original
+    <ion-button expand="full" color="primary" (click)="openOriginal()">
+      Abrir el Original
     </ion-button>
   </ion-toolbar>
 </ion-footer>
